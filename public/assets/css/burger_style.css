@@ -1,0 +1,86 @@
+
+body{
+  background-image: url("https://wallpapercave.com/wp/wp2186059.jpg");
+	height: 100%; 
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color:white;
+}
+
+
+
+#title{
+  font-family: 'Arial';
+  text-align:center;
+  font-size: 100px;
+  color:red;
+  text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff;
+}
+
+p, li{
+  font-size: 20px;
+  margin-bottom:25px;
+
+}
+
+h2{
+
+  font-weight: bold !important;
+  padding-bottom:10px;
+  text-align:center;
+}
+
+label {
+  font-weight: bold;
+  font-size:16px;
+}
+
+.uneaten, .eaten{
+   padding: 5px;
+  margin: 5px;
+  background: rgba(0,0,0, 0.4);
+  background: rgba(250,235,215, 0.9);
+  width: 400px;
+  font-weight: bold;
+}
+
+
+.add-new {
+
+  background: rgba(250,235,215, 0.9);
+  margin-top:10px;
+  margin-left:100px;
+  width:350px;
+  padding-top:2px;
+  padding-bottom:9px;  
+}
+
+.form-group{
+  text-align: center;
+}
+
+#submit-button{
+  margin-left:40%;
+  padding:10px;
+}
+
+#eat-burger{
+   
+    position:absolute;
+  
+    padding:10px;
+    margin-bottom:5px;
+
+}
+
+.create-form {
+  padding: 5px;
+  margin: 5px;
+  
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
